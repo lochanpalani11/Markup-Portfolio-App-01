@@ -262,21 +262,6 @@ All data is currently stored locally on the device. Clearing app data or uninsta
 
 ---
 
-## Suggested portfolio demo
-
-For a concise client-facing walkthrough:
-
-1. Create a local Markup account.
-2. Add **Nike Air Max** with a purchase price of `$40` and expected sale price of `$75`.
-3. Add a photo and demonstrate the live `$35` expected-profit calculation.
-4. Add a second product with a custom category using **Other**.
-5. Record a sale at `$70` and show the `$30` realized profit.
-6. Add a packaging or advertising expense.
-7. Return to Dashboard and show the net-profit update and recent-sale thumbnail.
-8. Open Analytics and switch between month, year, and all-time views.
-9. Open Settings to demonstrate theme switching, category management, and fullscreen mode.
-
----
 
 ## Current scope and known boundaries
 
@@ -390,23 +375,6 @@ Potential questions include:
 
 ---
 
-## Screenshots
-
-Add real emulator screenshots to `docs/screenshots/` using these filenames:
-
-```text
-docs/screenshots/dashboard.jpg
-docs/screenshots/inventory.jpg
-docs/screenshots/sales.jpg
-docs/screenshots/expenses.jpg
-docs/screenshots/analytics.jpg
-docs/screenshots/settings.jpg
-```
-
-The image links currently act as portfolio placeholders. Capture the app on a representative phone emulator before publishing the repository publicly.
-
----
-
 ## Portfolio positioning
 
 Markup demonstrates more than a collection of screens. It shows:
@@ -420,18 +388,8 @@ Markup demonstrates more than a collection of screens. It shows:
 - Local privacy boundaries and user-scoped data access
 - A staged roadmap from offline MVP to cloud sync and structured-data AI
 
-## Verification
-
-Run the following checks from the project root before handing the app to a client or publishing it:
-
-```bash
-./gradlew clean :app:assembleDebug
-./gradlew :app:assembleRelease
-./gradlew :app:lintRelease
-```
-
-On Windows, use `gradlew.bat` instead of `./gradlew`. A release handoff should also include testing on at least one compact phone, one large phone, and both light and dark system themes. Automated UI coverage for the primary sale flow and screenshot capture remain recommended next steps.
+---
 
 ## License
 
-This is a portfolio application. Add a license before distributing the project publicly.
+All rights reserved to Lochan Palani
