@@ -25,7 +25,7 @@ The home screen gives users an immediate view of business health:
 - Time-aware greeting that changes between morning, afternoon, and evening
 - Settings shortcut for appearance, fullscreen, categories, and account controls
 
-![Markup dashboard](docs/screenshots/dashboard.png)
+![Markup dashboard](docs/screenshots/dashboard.jpg)
 
 
 
@@ -42,7 +42,7 @@ Manage products in a searchable, responsive inventory workspace:
 - Product cards with thumbnails, status chips, quantity, and key pricing information
 - Long names and labels are constrained with sensible limits and ellipsis handling
 
-![Markup inventory](docs/screenshots/inventory.png)
+![Markup inventory](docs/screenshots/inventory.jpg)
 
 ### Sales
 
@@ -58,7 +58,7 @@ Record and review completed transactions:
 - Delete a sale and restore one unit to the related inventory item
 - User-scoped sale operations prevent data from crossing local accounts
 
-![Markup sales](docs/screenshots/sales.png)
+![Markup sales](docs/screenshots/sales.jpg)
 
 ### Expenses
 
@@ -75,7 +75,7 @@ Track operating costs that affect net profit:
 - Expense totals included in dashboard and analytics calculations
 - Category breakdown shown in analytics
 
-![Markup expenses](docs/screenshots/expenses.png)
+![Markup expenses](docs/screenshots/expenses.jpg)
 
 ### Analytics
 
@@ -92,7 +92,7 @@ Turn resale activity into practical business insight:
 - Period-dependent expense and product rankings reflect the selected range
 - Custom chart content includes an accessibility description for screen readers
 
-![Markup analytics](docs/screenshots/analytics.png)
+![Markup analytics](docs/screenshots/analytics.jpg)
 
 ### Settings
 
@@ -108,7 +108,7 @@ Settings centralizes appearance, display, category, and account preferences:
 - Confirmation dialog before signing out
 - App version and brand information
 
-![Markup settings](docs/screenshots/settings.png)
+![Markup settings](docs/screenshots/settings.jpg)
 
 ---
 
@@ -395,12 +395,12 @@ Potential questions include:
 Add real emulator screenshots to `docs/screenshots/` using these filenames:
 
 ```text
-docs/screenshots/dashboard.png
-docs/screenshots/inventory.png
-docs/screenshots/sales.png
-docs/screenshots/expenses.png
-docs/screenshots/analytics.png
-docs/screenshots/settings.png
+docs/screenshots/dashboard.jpg
+docs/screenshots/inventory.jpg
+docs/screenshots/sales.jpg
+docs/screenshots/expenses.jpg
+docs/screenshots/analytics.jpg
+docs/screenshots/settings.jpg
 ```
 
 The image links currently act as portfolio placeholders. Capture the app on a representative phone emulator before publishing the repository publicly.
