@@ -27,7 +27,7 @@ The home screen gives users an immediate view of business health:
 
 ![Markup dashboard](docs/screenshots/dashboard.png)
 
-> **Screenshot placeholder:** Add a real emulator capture at `docs/screenshots/dashboard.png` before publishing.
+
 
 ### Inventory
 
